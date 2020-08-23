@@ -5,7 +5,7 @@
 }
 
 .main-page-wrapper {
-  background: url(./img/hero.png) center top no-repeat, url(./img/bottom-bg.png) right bottom 210px no-repeat;
+  background: url("./img/hero.png") center top no-repeat, url("./img/bottom-bg.png") right bottom 210px no-repeat;
 
 }
 
@@ -241,7 +241,7 @@ p {
   content: "";
   width: 21px;
   height: 28px;
-  background: url(./img/flame.jpg);
+  background: url("./img/flame.jpg");
   z-index: 1; 
 }*/
 
@@ -445,7 +445,7 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url(./img/about-bg.png) center center / cover no-repeat;
+  background: url("./img/about-bg.png") center center / cover no-repeat;
   border-radius: 5px;
 }
 
@@ -456,7 +456,7 @@ p {
   margin-left: -140px;
   margin-top: 97px;
 
-  background: url(./img/about-mountains.png);
+  background: url("./img/about-mountains.png");
 }
 
 .about__title {
@@ -522,33 +522,33 @@ p {
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url(./img/telegram.png);
+  background-image: url("./img/telegram.png");
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-  background-image: url(./img/telegram-hover.png)
+  background-image: url("./img/telegram-hover.png")
 }
 
 .socials__item--icon--vk .socials__link {
-  background-image: url(./img/vk.png);
+  background-image: url("./img/vk.png");
 }
 
 .socials__item--icon--vk .socials__link:hover {
-  background-image: url(./img/vk-hover.png)
+  background-image: url("./img/vk-hover.png")
 }
 
 .socials__item--icon--fb .socials__link {
-  background-image: url(./img/fb.png);
+  background-image: url("./img/fb.png");
 }
 
 .socials__item--icon--fb .socials__link:hover {
-  background-image: url(./img/fb-hover.png)
+  background-image: url("./img/fb-hover.png")
 }
 
 .socials__item--icon--insta .socials__link {
-  background-image: url(./img/insta.png);
+  background-image: url("./img/insta.png");
 }
 
 .socials__item--icon--insta .socials__link:hover {
-  background-image: url(./img/insta-hover.png)
+  background-image: url("./img/insta-hover.png")
 }
