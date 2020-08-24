@@ -337,7 +337,6 @@ p {
   margin-bottom: 23px;
   margin-left: 21px;
 }
-
 .news__item {
   display: inline-block;
   width: 557px;
@@ -345,6 +344,11 @@ p {
   position: relative;
   overflow: hidden;
   margin-right: 20px;
+  border-radius: 5px;
+ 
+}
+.news__image{
+  border-radius: 5px;
 }
 
 .news__item:last-child {
@@ -356,6 +360,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 .news__content {
@@ -455,7 +460,7 @@ p {
   padding: 70px 80px;
   margin-left: -140px;
   margin-top: 97px;
-
+  border-radius: 5px;
   background: url("./img/about-mountains.png");
 }
 
