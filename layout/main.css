@@ -18,7 +18,13 @@ body {
   background: #001821;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
 }
+html{
+  height: 100%;
+width: 100%;}
 
 a {
   color: inherit;
@@ -27,7 +33,7 @@ a {
 .wrapper {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 ul {
@@ -83,7 +89,7 @@ p {
   width: 135px;
   height: 55px;
   border-radius: 35px;
-  margin-left: 23px;
+  margin-left: 3px;
   padding: 18px 29px;
 }
 
@@ -93,7 +99,7 @@ p {
   width: 135px;
   height: 55px;
   border-radius: 35px;
-  margin-left: 23px;
+  margin-left: 3px;
   padding: 18px 29px;
 }
 
@@ -121,9 +127,6 @@ p {
 .menu {
   display: inline-block;
   position: absolute;
-
-  width: 264px;
-  height: 19px;
   left: 164px;
   top: 30px;
 }
@@ -158,7 +161,7 @@ p {
   font-style: normal;
   text-align: right;
   right: 0;
-  top: 22px;
+  top: 18px;
 
   /* position: absolute;
   width: 191px;
@@ -191,11 +194,10 @@ p {
 .contacts__desc {
   color: #9A9A9A;
   font-size: 11px;
+  line-height: 20px;
 }
 
-.hero {
-  min-height: 100px;
-}
+
 
 .hero__content {
   min-height: 500px;
@@ -205,8 +207,7 @@ p {
 
   position: absolute;
   width: 511px;
-  height: 352px;
-  /* margin-bottom: 10px; */
+
 }
 
 .hero__title {
@@ -241,25 +242,9 @@ p {
   content: "";
   width: 21px;
   height: 28px;
-  background: url("./img/flame.jpg");
+  background: url("./img/flame.png");
   z-index: 1; 
 }*/
-
-
-
-.section__title-icon {
-  background: black;
-}
-
-.tours__title {
-  font-size: 36px;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 4px;
-  margin-left: 21px;
-  margin-bottom: 14px;
-}
-
 
 .tours__item {
   width: 362px;
@@ -274,6 +259,11 @@ p {
   border-bottom-right-radius: 5px;
   vertical-align: top;
 }
+img.tours__icon-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .tours__item:last-child {
   margin-right: 0px;
@@ -283,7 +273,10 @@ p {
   height: 144px;
   margin-bottom: 28px;
 }
+.tours__content{
+  padding: 0px 20px;
 
+}
 .tours__title {
   color: #000000;
   font-style: normal;
@@ -291,31 +284,14 @@ p {
   line-height: 33px;
   font-weight: bold;
   display: inline-block;
-  margin-left: 20px;
-  margin-bottom: 13px;
-}
-
-.tours__desc-icon-calendar {
-  position: absolute;
-  display: inline-block;
-  margin-bottom: 0px;
-  margin-left: -31px;
-  margin-top: -2px
-}
-
-.tours__desc-icon-meal {
-  position: absolute;
-  display: inline-block;
-  margin-bottom: 0px;
-  margin-left: -40px;
+  margin-bottom: 25px;
 }
 
 .tours__conditions {
   display: inline-block;
-  margin-left: 58px;
-  margin-bottom: 20px;
-  margin-right: 6px;
-  margin-top: 9px;
+  margin-bottom: 11px;
+  margin-right: 8px;
+  padding: 0px 8px;
 }
 
 .tours__desc-option {
@@ -325,9 +301,11 @@ p {
   line-height: 19px;
   margin-left: 5px;
 
-
 }
-
+.tours__desc-icon{
+  display: inline-block;
+  vertical-align: top;
+}
 .tours__text {
 
   color: #303030;
@@ -335,11 +313,12 @@ p {
   line-height: 21px;
   margin-top: 7px;
   margin-bottom: 23px;
-  margin-left: 21px;
+
 }
 .news__item {
   display: inline-block;
   width: 557px;
+  height: 394px;
   vertical-align: top;
   position: relative;
   overflow: hidden;
@@ -347,15 +326,12 @@ p {
   border-radius: 5px;
  
 }
-.news__image{
-  border-radius: 5px;
-}
 
 .news__item:last-child {
   margin-right: 0;
 }
 
-.news__cover {
+.news__image {
   display: block;
   width: 100%;
   height: 100%;
@@ -376,18 +352,20 @@ p {
 .news__date {
   font-size: 14px;
   line-height: 21px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   display: block;
   padding: 0px 0px;
 }
 
 .news__title {
   font-size: 24px;
-
+  line-height: 36px;
   font-weight: bold;
   margin-bottom: 4px;
 }
-
+.news__desc{
+  line-height: 21px;
+}
 .news {
   margin-bottom: 46px;
 }
@@ -452,6 +430,7 @@ p {
   height: 505px;
   background: url("./img/about-bg.png") center center / cover no-repeat;
   border-radius: 5px;
+  
 }
 
 .about__content {
@@ -462,6 +441,8 @@ p {
   margin-top: 97px;
   border-radius: 5px;
   background: url("./img/about-mountains.png");
+  vertical-align: top;
+  background-size: cover;
 }
 
 .about__title {
@@ -490,7 +471,7 @@ p {
 .footer {
   height: 146px;
   position: relative;
-  margin-top: 26px;
+  margin-top: 30px;
 }
 
 .footer-container__content {
@@ -502,16 +483,16 @@ p {
 .socials {
   position: absolute;
   top: 25px;
-  right: 250px;
+  right: 265px;
 }
 
 .socials__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
-.social__item:last-child {
+.socials__item:last-child {
   margin-right: 0;
 }
 
