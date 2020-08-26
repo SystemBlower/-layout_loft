@@ -5,7 +5,7 @@
 }
 
 .main-page-wrapper {
-  background: url("./img/hero.png") center top no-repeat, url("./img/bottom-bg.png") right bottom 210px no-repeat;
+  background: url("./img/hero.png") center top 7px no-repeat, url("./img/bottom-bg.png") right bottom 210px no-repeat;
 
 }
 
@@ -54,6 +54,7 @@ h5,
 h6 {
   margin: 0;
   font-weight: normal;
+  
 }
 
 p {
@@ -109,7 +110,8 @@ p {
   min-height: 123.36px;
   /*left: 390px;*/
   /* top: 26.64px; */
-  margin-bottom: 45px;
+  margin-bottom: 62px;
+  
 
 }
 
@@ -198,7 +200,9 @@ p {
 }
 
 
-
+.hero{
+  margin-top: 16px;
+}
 .hero__content {
   min-height: 500px;
 }
@@ -213,9 +217,8 @@ p {
 .hero__title {
   font-size: 72px;
   line-height: 1.41;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
   font-weight: 700;
-  margin-top: 17px;
 }
 
 .hero__subtitle {
@@ -225,12 +228,20 @@ p {
   font-weight: 400;
 }
 
-.section {
-  margin-bottom: 28px;
-}
 
+.section {
+  
+}
+.section--main{
+  margin-top: 81px;
+}
+.section--news{
+  margin-top: 124px;
+}
+.section--about{
+  margin-top: 151px;
+}
 .section__title {
-  margin-top: 98px;
   font-size: 36px;
   font-weight: bold;
   display: inline-block;
@@ -286,12 +297,15 @@ img.tours__icon-img{
   display: inline-block;
   margin-bottom: 25px;
 }
+.tours__desc{
+  display: inline-block;
 
+}
 .tours__conditions {
   display: inline-block;
-  margin-bottom: 11px;
-  margin-right: 8px;
-  padding: 0px 8px;
+  padding-left: 8px;
+  padding-right: 16px;
+  padding-bottom: 12px;
 }
 
 .tours__desc-option {
@@ -311,8 +325,8 @@ img.tours__icon-img{
   color: #303030;
   font-size: 14px;
   line-height: 21px;
-  margin-top: 7px;
-  margin-bottom: 25px;
+  padding-top: 6px;
+  padding-bottom: 23px;
 
 }
 .news__item {
@@ -473,7 +487,7 @@ img.tours__icon-img{
 .footer {
   height: 146px;
   position: relative;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .footer-container__content {
