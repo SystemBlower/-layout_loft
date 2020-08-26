@@ -3,7 +3,9 @@
 * {
   box-sizing: border-box;
 }
-
+html{
+  height: 100%;
+width: 100%;}
 .main-page-wrapper {
   background: url("./img/hero.png") center top 7px no-repeat, url("./img/bottom-bg.png") right bottom 210px no-repeat;
 
@@ -22,9 +24,7 @@ body {
   min-height: 100%;
   width: 100%;
 }
-html{
-  height: 100%;
-width: 100%;}
+
 
 a {
   color: inherit;
@@ -208,10 +208,7 @@ p {
 }
 
 .hero__text-section {
-
-  position: absolute;
   width: 511px;
-
 }
 
 .hero__title {
@@ -299,13 +296,13 @@ img.tours__icon-img{
 }
 .tours__desc{
   display: inline-block;
+  padding-bottom: 12px;
 
 }
 .tours__conditions {
   display: inline-block;
   padding-left: 8px;
   padding-right: 16px;
-  padding-bottom: 12px;
 }
 
 .tours__desc-option {
@@ -485,7 +482,7 @@ img.tours__icon-img{
 }
 
 .footer {
-  height: 146px;
+  min-height: 146px;
   position: relative;
   margin-top: 25px;
 }
