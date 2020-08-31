@@ -115,7 +115,7 @@ img{
   padding: 18px 29px;
 }
 .service__btn{
-  display: flex;
+  display: inline-flex;
   justify-items: center;
   align-items: center;
   width: 168px;
@@ -143,17 +143,19 @@ justify-content: flex-end;
 
 .logo {
   display: block;
-  margin-right: 80px;
+  margin-right: 67px;
 }
 
 .menu {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .menu__item {
-  display: inline-block;
+  display: inline-flex;
+  justify-content:space-between;
   margin-right: 50px;
-  vertical-align: middle;
+  
 }
 
 .menu__item:last-child {
@@ -252,6 +254,7 @@ justify-content: flex-end;
   margin-top: 125px;
 }
 .section--about{
+  margin-top: 130px;
  
 }
 .section__title {
@@ -420,7 +423,7 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+
 }
 .paginator--color--reverse{
   color: #000000;
@@ -559,8 +562,8 @@ flex-direction: column;
 }
 
 .socials__item {
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
+  justify-content: space-between;
   margin-right: 6px;
 }
 
@@ -673,15 +676,15 @@ flex-direction: column;
 .page-content{
   background: #fff;
   color: #303030;
-  padding: 60px 0;
+  padding:94px 0;
 }
 .services{
-  margin-bottom: 40px;
+  margin-bottom: 49px;
 }
 .service{
   display: flex;
-  padding-top: 40px;
   text-decoration: none;
+  margin-bottom: 33px;
 }
 .service__img{
   display: flex;
@@ -746,8 +749,8 @@ flex-direction: column;
   filter: grayscale(1);
   overflow: hidden;
 }
-.partners__link:hoover{
-  filter:grayscale(0)
+.partners__link:hover{
+  filter: grayscale(0);
 }
 .inner-footer__container{
   padding: 45px 0;
