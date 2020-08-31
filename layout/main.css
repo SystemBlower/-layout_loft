@@ -124,7 +124,7 @@ img{
   padding: 18px 40px;
 }
 .header {
-  margin-top: 30px;
+  margin-top: 20px;
   padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
@@ -133,6 +133,9 @@ img{
 .header__col{
   display: flex;
   align-items: center;
+}
+.header__col .logo{
+  margin-right: 68px;
 }
 .header__col--align--right{
 justify-content: flex-end;
@@ -243,13 +246,13 @@ justify-content: flex-end;
   
 }
 .section--main{
-  margin-top: 200px;
+  margin-top: 245px;
 }
 .section--news{
-  margin-top: 124px;
+  margin-top: 125px;
 }
 .section--about{
-  margin-top: 151px;
+ 
 }
 .section__title {
   font-size: 36px;
@@ -358,6 +361,7 @@ flex-direction: column;
 .news{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 52px;
 }
 .news__item {
   height: 394px;
@@ -370,7 +374,7 @@ flex-direction: column;
   
   border-radius: 5px;
 }
-.single-news__item:last-child {
+.news__item:last-child {
   margin-right: 0;
 }
 
@@ -411,15 +415,12 @@ flex-direction: column;
 .single-news__desc{
   line-height: 21px;
 }
-.single-news{
-  margin-bottom: 46px;
-}
 
 .paginator{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 145px;
+  margin-bottom: 30px;
 }
 .paginator--color--reverse{
   color: #000000;
@@ -456,7 +457,9 @@ flex-direction: column;
 }
 
 .paginator__link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -488,9 +491,10 @@ flex-direction: column;
 
 .about__content {
   max-width: 785px;
+  width: 100%;
   height: 455px;
   padding: 70px 80px;
-  margin-left: -140px;
+  margin-left: -135px;
   margin-top: 97px;
   border-radius: 5px;
   background: url("./img/about-mountains.png");
@@ -522,6 +526,7 @@ flex-direction: column;
 }
 
 .footer {
+  margin-top: 40px;
   position: relative;
   display: flex;
   align-items: center;
@@ -532,6 +537,8 @@ flex-direction: column;
   margin-top: 25px;
   margin-top: auto;
 }
+.footer--services{
+  margin-top: 0;}
 .footer__col{
   display: flex;
   align-items: center
@@ -539,6 +546,7 @@ flex-direction: column;
 }
 .footer__col--align--right{
   display: flex;
+  align-items: center;
   justify-content: flex-end;
 }
 .footer-container__content {
@@ -620,6 +628,10 @@ flex-direction: column;
 .top-line__header{
   margin-top: 25px;
 }
+.logo__pic--bigger{
+  width: 98px;
+  height: 42px;
+}
 .logo--services{
   /* width: 42px;
   height: 98px;
@@ -661,14 +673,14 @@ flex-direction: column;
 .page-content{
   background: #fff;
   color: #303030;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .services{
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 .service{
   display: flex;
-  padding-top: 60px;
+  padding-top: 40px;
   text-decoration: none;
 }
 .service__img{
@@ -678,19 +690,22 @@ flex-direction: column;
     margin-right: 5.3%;
     object-fit: cover;
     border-radius: 5px;
+    overflow: hidden;
 }
 .service__content{
   flex: 1;
+  line-height: 27px;
+  margin-bottom: 35px;
 }
+
 .service__title{
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 28px;
   color: #000000;
+  padding-top: 25px;
 }
-.service__content{
-  line-height: 1.7;
-  margin-bottom: 35px;
+.service__desc{
+  padding: 40px 0px 15px;
 }
 .inner-section{
   background: #fff;
@@ -707,7 +722,19 @@ flex-direction: column;
 .partners{
   display: flex;
   flex-wrap: wrap;
-  margin: 100px 0;
+  margin: 70px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.partners__item{
+  flex-grow: 1;
+  min-width: 171px;
+  max-width: 300px;
+  margin-left: 20px;
+  margin-bottom: 23px;
+}
+.partners__item:nth-child(4n+1){
+  margin-left:0;
 }
 .partners__link{
   text-decoration: none;
@@ -717,6 +744,7 @@ flex-direction: column;
   align-items: center;
   justify-content: center;
   filter: grayscale(1);
+  overflow: hidden;
 }
 .partners__link:hoover{
   filter:grayscale(0)
