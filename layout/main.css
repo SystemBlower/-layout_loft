@@ -575,7 +575,7 @@ flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  display: inline-block;
+  display: inline-flex;
   text-decoration: none;
   width: 36px;
   height: 36px;
