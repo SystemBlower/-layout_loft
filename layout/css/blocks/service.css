@@ -1,0 +1,38 @@
+.service{
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 33px;
+}
+.service__img{
+  display: flex;
+    width: 40%;
+    height: 333px;
+    margin-right: 5.3%;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.service__content{
+  flex: 1;
+  line-height: 27px;
+  margin-bottom: 35px;
+}
+
+.service__title{
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+  padding-top: 25px;
+}
+.service__desc{
+  padding: 40px 0px 15px;
+}
+.service__btn{
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+  width: 168px;
+  height: 55px;
+  margin: 0;
+  padding: 18px 40px;
+}

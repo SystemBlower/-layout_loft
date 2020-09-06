@@ -1,0 +1,31 @@
+.section {
+  
+}
+.section--main{
+  margin-top: 245px;
+}
+.section--news{
+  margin-top: 125px;
+}
+.section--about{
+  margin-top: 130px;
+ 
+}
+.section__title {
+  font-size: 36px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 51px;
+  margin-right:10px;
+}
+.section__title-icon{
+  display: inline
+}
+
+/* .section__title:after {
+  content: "";
+  width: 21px;
+  height: 28px;
+  background: url("./img/flame.png");
+  z-index: 1; 
+}*/

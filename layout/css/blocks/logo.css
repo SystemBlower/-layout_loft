@@ -1,0 +1,15 @@
+
+.logo {
+  display: block;
+  margin-right: 67px;
+}
+
+.logo__pic--bigger{
+  width: 98px;
+  height: 42px;
+}
+/* .logo--services{
+  width: 42px;
+  height: 98px;
+  object-fit: cover; 
+} */

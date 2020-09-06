@@ -1,0 +1,22 @@
+.central{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../../img/shades.png") center center;
+  min-width: 591px;
+  animation: welcomeAnimation .2s .5s 4 alternate forwards;
+  visibility: hidden;
+}
+.central__header{
+  margin-bottom: 20px;
+}
+
+@keyframes welcomeAnimation{
+  from{
+    visibility: visible;
+  }
+  to{ transform: scale(1.4);
+    
+  }
+}
