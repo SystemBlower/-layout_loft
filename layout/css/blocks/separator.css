@@ -1,5 +1,5 @@
 .separator {
-  background: url("/img/separator-people.png") right 416px bottom no-repeat, url("/img/separator-bg.png")center center no-repeat;
+  background: url("../../img/separator-people.png") right 416px bottom no-repeat, url("../../img/separator-bg.png")center center no-repeat;
   background-color: rgb(243, 182, 164);
   min-height: 360px;
   display: flex;
