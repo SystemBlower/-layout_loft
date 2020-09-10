@@ -1,7 +1,7 @@
 .partners {
   display: flex;
   flex-wrap: wrap;
-  margin: 70px 0;
+  margin: 68px 0;
   justify-content: space-between;
   align-items: center;
 }

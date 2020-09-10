@@ -1,11 +1,10 @@
-
 .btn {
   display: flex;
   width: 168px;
   height: 55px;
   color: #fff;
   background: #F5170E;
-  
+
   padding: 18px 40px;
   font-size: 14px;
   font-weight: bold;
@@ -37,8 +36,17 @@
   margin-left: 3px;
   padding: 18px 29px;
 }
-.btn--welcome:hover{
+
+.btn--welcome:hover {
   background: #DA0100;
-  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3); 
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
   transition: all .3s;
+}
+
+.btn--color--gray {
+  background: #8E8E8E;
+}
+
+.btn--color--gray:hover {
+  background: #2B2B2B;
 }
