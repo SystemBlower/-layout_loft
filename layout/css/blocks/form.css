@@ -16,6 +16,7 @@
   color: #1A1B1E;
   font-size: 18px;
   line-height: 21px;
+  border: 1px solid transparent;
 }
 
 .form__input::placeholder {
@@ -29,7 +30,7 @@
 
 .form__input:focus {
   outline: none;
-  border: 1px solid #F5170E;
+  border-color: #F5170E;
 }
 
 .form__input--textarea {
@@ -38,7 +39,7 @@
 
 .form__controls {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .form__controls-title {
